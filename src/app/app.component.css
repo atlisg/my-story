@@ -1,0 +1,77 @@
+.main {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: 13%;
+  background-size: 100%;
+  background-color: #aaa;
+  /*background-blend-mode: exclusion;*/
+  background-image: url('../assets/atli_litli.jpg');
+  transition: background 1500ms ease;
+}
+.main.scrolled {
+  background-position-y: 27%;
+  /*background-blend-mode: normal;*/
+  background-size: 60%;
+  background-image: url('../assets/Atli-2.jpg');
+}
+.main.scrolled-bottom {
+  background-image: url('../assets/feet_in_nature.jpg');
+  background-size: 100%;
+  background-position: bottom;
+}
+.section.intro {
+  text-align: center;
+  height: 100vh;
+  text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
+}
+.section {
+  background-color: rgba(155,155,155,0.25);
+  height: 33.33vh;
+  opacity: 0.9;
+}
+.bigger-section {
+  height: 50vh;
+}
+.section .image-container {
+  right: 0;
+  position: absolute;
+}
+.section:nth-of-type(2n) {
+  background-color: #666;
+}
+.section:nth-of-type(4n) {
+  background-color: teal;
+}
+.section:nth-of-type(10n) {
+  background-color: orangered;
+}
+.image-container img {
+  height: 50vh;
+}
+.text-container {
+  padding-top: calc(50vh - 80px);
+}
+.text-container .time, 
+.text-container .milestone {
+  position: absolute;
+  left: 20px;
+  padding: 50px;
+  width: 40%;
+}
+.text-container .time {
+  font-size: 40px;
+}
+.text-container .milestone {
+  padding: 150px;
+  font-weight: normal;
+}
+.down-arrow {
+  margin-top: calc(50vh - 170px);
+}
+.down-arrow i {
+  margin-top: 20px;
+}
+.title {
+  text-align: center;
+}
