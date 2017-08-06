@@ -65,7 +65,7 @@ export class AppComponent {
       text      : 'Winner of a Under 21 Cup Tournament in Snooker, first place in the rankings in Iceland\'s Second Division Snooker and won silver in the Under 21 Icelandic Championship in Snooker.',
       background: ''},
     { time      : 'May 2001',
-      text      : 'Graduated from Ármúli Secondary School with 7,8 average grade.',
+      text      : 'Graduated from Ármúli Secondary School with 7.8 average grade.',
       background: ''},
     { time      : 'Summer 2001',
       text      : 'Starred in the most popular music video on PoppTV with the band "Útrás" and the song "Förum alla leið".',
@@ -104,7 +104,7 @@ export class AppComponent {
       text      : 'Lived in a little fairytale house by the ocean just off Grindavík and began my love affair with waves and the sea.',
       background: ''},
     { time      : 'July 2010',
-      text      : 'Proposed to the most wondeful woman in the world to which she accepted.',
+      text      : 'Proposed to the most wonderful woman on earth to which she accepted.',
       background: ''},
     { time      : 'August 2010',
       text      : 'Adopted a 4 year old Labrador Retriever, Esja.',
@@ -137,7 +137,7 @@ export class AppComponent {
       text      : 'Had my second child, Kári Jökull, and moved to a nice house in Garður.',
       background: './assets/kari.jpg'},
     { time      : 'Currently',
-      text      : 'Ever learning and evolving, never stagnating, being the best dad I possibly can, in an awesome relationships with my best friend and the most wonderful woman on earth, burning in my belly to leave the world a better place than when I found it.',
+      text      : 'Ever learning and evolving, never stagnating, being the best dad I possibly can, in an awesome relationship with my best friend, burning in my belly to leave the world a better place than when I found it.',
       background: './assets/super_dad.jpg'},
   ];
 
