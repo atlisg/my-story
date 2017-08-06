@@ -1,6 +1,6 @@
 # MyStory
 
-A little get-to-know-me app. My milestones, life highlights, life-changing-moments, whatever.
+A little get-to-know-me app. My milestones, life highlights, life-changing-moments, that kind of thing.
 
 ## Requirements
 
@@ -10,10 +10,6 @@ A little get-to-know-me app. My milestones, life highlights, life-changing-momen
 ## Setup
 
 ```
-// Install packages
-npm install
-
-// Run app locally
 ng serve
 Navigate to `http://localhost:4200/`
 ```
