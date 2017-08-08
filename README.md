@@ -1,6 +1,6 @@
 # MyStory
 
-A little get-to-know-me page. My milestones, life highlights, life-changing-moments, that kind of thing.
+A little get-to-know-me website. My milestones, life highlights, life-changing-moments, that kind of thing.
 
 ## Requirements
 
