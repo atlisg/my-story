@@ -40,17 +40,11 @@ export class AppComponent {
     { time      : 'April 1996',
       text      : 'Chosen for the Iceland National Basketball Youth Team.',
       background: ''},
-    { time      : 'February 1997',
-      text      : 'Winner in a singing competition in Skógaskóli High School.',
-      background: ''},
-    { time      : 'Mars 1997',
-      text      : 'Competed in the finals of the National High School singing competition.',
+    { time      : 'Winter 1997',
+      text      : 'Winner of a singing competition in Skógaskóli High School and competed in the finals of the National High School singing competition.',
       background: ''},
     { time      : 'May 1997',
-      text      : 'Graduated from Skógarskóli High School with 10 extra credits and > 8 average grade.',
-      background: ''},
-    { time      : 'Spring of 1997',
-      text      : 'Moved back to my mother in Grafarvogur, Reykjavík.',
+      text      : 'Graduated from Skógarskóli High School with 10 extra credits and > 8 average grade and moved back to my mother in Grafarvogur, Reykjavík.',
       background: ''},
     { time      : 'Summer of 1997',
       text      : 'First heartbreak.',
@@ -77,13 +71,13 @@ export class AppComponent {
       text      : 'Had two popular songs, "Crystal Clear" and "Know We Can Not", on the radiostation "X-ið" with the band "Core Blooming".',
       background: ''},
     { time      : 'Fall of 2004',
-      text      : 'Met my soulmate, Dóra Gígja.',
+      text      : 'Met my soulmate, Dóra Gígja, survival mode deactivated, got in touch with the real me (que Svala\'s "The Real Me")',
       background: './assets/dora_ung.jpg'},
     { time      : '2005 - 2006',
       text      : 'Lived in England and finished a Diploma in Audio Engineering, realized how small the world is.',
       background: ''},
     { time      : 'January 2007',
-      text      : 'Went Vegan.',
+      text      : 'Turned Vegan after opening my eyes to the needless suffering of animals in the animal agriculture industry.',
       background: ''},
     { time      : '2007',
       text      : 'Became obsessed with nature.',
@@ -91,14 +85,11 @@ export class AppComponent {
     { time      : 'February 2007',
       text      : 'Bought our first flat, a tiny second floor in an old house in Hafnarfjörður.',
       background: ''},
-    /*{ time      : '2007 - 2013',
-      text      : 'Managed to let an old ballroom/hall, Súlnasalur in Hótel Saga work well and sound great, despite difficult conditions.',
-      background: ''},*/
     { time      : 'August 2009',
       text      : 'Finished my first and only album as a solo artist, "All over the place", where I wrote the music and lyrics, played multiple instruments, sang, recorded, programmed, mixed and produced everything.',
       background: './assets/all_over_the_place_pearl.jpg'},
     { time      : 'May 2010',
-      text      : '3rd place in the rankings in Iceland\'s Top Division in Snooker and 5. - 8. place in the Icelandic Championship.',
+      text      : 'Got back to Snooker for a bit, 3rd place in the rankings in Iceland\'s Top Division in Snooker and 5. - 8. place in the Icelandic Championship.',
       background: ''},
     { time      : '2010 - 2011',
       text      : 'Lived in a little fairytale house by the ocean just off Grindavík and began my love affair with waves and the sea.',
@@ -110,7 +101,7 @@ export class AppComponent {
       text      : 'Adopted a 4 year old Labrador Retriever, Esja.',
       background: ''},
     { time      : 'August 2011',
-      text      : 'Esja had 7 puppies and we decided to keep one for ourselves, Álfa, and managed to find great furever homes for the rest of the bunch.',
+      text      : 'Esja had 7 puppies and we decided to keep one for ourselves, Álfa, and managed to find great fur-ever homes for the rest of the bunch.',
       background: './assets/atli_hvolpar.jpg'},
     { time      : 'January 2012',
       text      : 'Purchased a nice flat in Hafnarfjörður.',
@@ -141,23 +132,11 @@ export class AppComponent {
       background: './assets/super_dad.jpg'},
   ];
 
-  /*constructor(private winRef: WindowRef) {
-    console.log('Native window obj', winRef.nativeWindow);
-    winRef.nativeWindow.scroll(function() {
-      var fromTopPx = 200; // distance to trigger
-      var scrolledFromtop = winRef.nativeWindow.scrollTop();
-      if(scrolledFromtop > fromTopPx){
-        this.scrolled = 1;
-        jQuery('html').addClass('scrolled');
-      } else {
-        this.scrolled = 0;
-        jQuery('html').removeClass('scrolled');
-      }
-    });
-  }*/
-
   constructor(@Inject(DOCUMENT) private document: Document) { }
   
+  /**
+   * Change background picture based on current scroll position.
+   */
   @HostListener("window:scroll", [])
   onWindowScroll() {
     let browserHeight = this.document.defaultView.innerHeight;
